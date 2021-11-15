@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     margin: 0;
 }
 
@@ -96,7 +95,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     order: 1;
-    padding: 0 350px;
+    padding: 0 350px 100px;
     flex: 2;
 }
 
@@ -121,11 +120,12 @@ a:hover {
 .box-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 55px;
     margin-top: 50px;
 }
 
 .info-text {
+    padding-top: 10px;
     text-align: center;
     width: 200px;
 }
@@ -135,9 +135,30 @@ a:hover {
 
 .quote-section {
     display: flex;
+    height: 400px;
     order: 2;
-    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 450px;
+    background-color: #e5e7eb;
 }
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937bd;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #1f2937cc;
+}
+
+
+/* Call to Action */
 
 .call-to-action {
     display: flex;
