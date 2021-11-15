@@ -11,7 +11,7 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
 }
 
@@ -31,7 +31,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    flex: 2.5;
+    flex: 3;
     order: 0;
     padding: 0 350px;
     justify-content: center;
@@ -39,7 +39,7 @@ a:hover {
 
 .main {
     display: flex;
-
+    padding: 15px 0 70px;
 }
 
 .text {
@@ -94,10 +94,44 @@ a:hover {
 
 .info-container {
     display: flex;
+    flex-direction: column;
     order: 1;
     padding: 0 350px;
-    flex: 1;
+    flex: 2;
 }
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid 3px #3882f6;
+    border-radius: 8px;
+    color: #1f2937;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.info-text {
+    text-align: center;
+    width: 200px;
+}
+
+
+/* Quote Section */
 
 .quote-section {
     display: flex;
