@@ -231,5 +231,11 @@ a:hover {
     display: flex;
     order: 4;
     margin-top: auto;
+    background-color: #1f2937;
+    height: 75px;
+    color: #f9faf8;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
 }
 
